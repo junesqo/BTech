@@ -22,11 +22,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        initBottomNavigation()
+        initNavBar()
         navBarViewVisibility()
     }
 
-    private fun initBottomNavigation() {
+    private fun initNavBar() {
         val navView: BottomNavigationView = binding.navbar
 
         navController = findNavController(R.id.nav_host_fragment_activity_main)

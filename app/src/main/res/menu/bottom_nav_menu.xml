@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Главная"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_bestsellers"
+        android:icon="@drawable/ic_fire"
+        android:title="Новое"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_basket"
+        android:icon="@drawable/ic_shop"
+        android:title="Корзина"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Профиль"
+        tools:ignore="MenuTitle" />
+
+</menu>

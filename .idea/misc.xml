@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_auth.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_auth.xml" value="0.12" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_basket.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_bestseller.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_bestsellers.xml" value="0.17074275362318841" />
@@ -13,6 +13,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_sign_in.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_sign_up.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BTech/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.107" />
       </map>
     </option>
   </component>

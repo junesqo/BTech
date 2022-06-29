@@ -13,4 +13,20 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ButtonStyle">
+
+        <item name="android:fillColor">@color/black</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:backgroundTint">@color/accent</item>
+        <item name="color">@color/black</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:tint">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:letterSpacing">0.015</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>

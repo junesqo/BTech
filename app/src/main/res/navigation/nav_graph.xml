@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_auth">
+
+    <fragment
+        android:id="@+id/navigation_auth"
+        android:name="kg.geektech.btech.ui.auth.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" />
+    <fragment
+        android:id="@+id/navigation_sign_in"
+        android:name="kg.geektech.btech.ui.signIn.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/navigation_sign_up"
+        android:name="kg.geektech.btech.ui.signUp.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="kg.geektech.btech.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_basket"
+        android:name="kg.geektech.btech.ui.basket.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="kg.geektech.btech.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_bestsellers"
+        android:name="kg.geektech.btech.ui.bestsellers.BestsellersFragment"
+        android:label="fragment_bestsellers"
+        tools:layout="@layout/fragment_bestsellers" />
+</navigation>

@@ -27,8 +27,8 @@ abstract class BaseFragment<VB: ViewBinding, VM: BaseViewModel, NC:NavController
         initListener()
     }
 
-    abstract fun initView() //вьюшки
-    abstract fun initListener() //логика кликов
-    abstract fun initViewModel() //обзерверы
-    abstract fun checkInternet()
+    open fun initView() {} //вьюшки
+    open fun initListener() {} //логика кликов
+    open fun initViewModel() {} //обзерверы
+    open fun checkInternet() {}
 }

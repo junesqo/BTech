@@ -4,4 +4,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sign_in">Войти</string>
     <string name="create_account">Создать аккаунт</string>
+    <string name="t_sign_in">Вход в аккаунт</string>
+    <string name="todo">TODO</string>
+    <string name="hint_email">Ваш Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="tv_forgot_password">Забыли пароль?</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+    <string name="bestsellers">Новое</string>
+    <string name="home">Главная</string>
+    <string name="or">Или</string>
 </resources>

@@ -17,6 +17,7 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
     }
 
     override fun initView() {
+        navController = NavController(requireContext())
     }
 
     override fun initListener() {
@@ -27,7 +28,7 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
             )
             navController.navigate(R.id.navigation_sign_up)
         }
-        binding.btnSignIn.setOnClickListener {
+        binding.btnSignInAuth.setOnClickListener {
             navController = Navigation.findNavController(
                 requireActivity(),
                 R.id.nav_host_fragment_activity_main

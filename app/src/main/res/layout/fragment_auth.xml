@@ -15,14 +15,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_sign_in"
+        android:id="@+id/btn_sign_in_auth"
         android:text="@string/sign_in"
         style="@style/ButtonStyle"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginBottom="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,11 +31,12 @@
 
     <TextView
         android:id="@+id/btn_sign_up"
+        android:textSize="22sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_sign_in"
+        app:layout_constraintTop_toBottomOf="@id/btn_sign_in_auth"
         android:layout_marginTop="20dp"
         android:text="@string/create_account"
         android:textColor="@color/accent"

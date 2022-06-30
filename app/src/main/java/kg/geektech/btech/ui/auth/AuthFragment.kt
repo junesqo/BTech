@@ -17,7 +17,6 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
     }
 
     override fun initView() {
-        TODO("Not yet implemented")
     }
 
     override fun initListener() {
@@ -37,11 +36,9 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
         }    }
 
     override fun initViewModel() {
-        TODO("Not yet implemented")
     }
 
     override fun checkInternet() {
-        TODO("Not yet implemented")
     }
 
 }

@@ -9,9 +9,7 @@
     <TextView
         android:layout_marginTop="40dp"
         android:id="@+id/tv_sign_in_account"
-        android:fontFamily="@font/roboto_bold"
-        android:textColor="@color/black"
-        android:textSize="@dimen/t_main_bold"
+        style="@style/Text24sp"
         android:text="@string/t_sign_in"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

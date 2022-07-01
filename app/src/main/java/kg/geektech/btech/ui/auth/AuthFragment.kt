@@ -30,7 +30,7 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
         }
         binding.btnSignInAuth.setOnClickListener {
             navController = Navigation.findNavController(
-                requireActivity(),
+              ho  requireActivity(),
                 R.id.nav_host_fragment_activity_main
             )
             navController.navigate(R.id.navigation_sign_in)

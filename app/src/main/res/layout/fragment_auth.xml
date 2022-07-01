@@ -19,7 +19,7 @@
         android:contentDescription="@string/todo" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_sign_in_auth"
+        android:id="@+id/btn_sign_in"
         android:text="@string/sign_in"
         style="@style/ButtonStyle"
         android:layout_marginHorizontal="20dp"

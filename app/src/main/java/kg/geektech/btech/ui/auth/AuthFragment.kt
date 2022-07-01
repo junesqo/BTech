@@ -28,9 +28,9 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
             )
             navController.navigate(R.id.navigation_sign_up)
         }
-        binding.btnSignInAuth.setOnClickListener {
+        binding.btnSignIn.setOnClickListener {
             navController = Navigation.findNavController(
-              ho  requireActivity(),
+                requireActivity(),
                 R.id.nav_host_fragment_activity_main
             )
             navController.navigate(R.id.navigation_sign_in)

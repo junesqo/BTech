@@ -5,25 +5,25 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home"
-        android:title="Главная"
+        android:title="@string/home"
         tools:ignore="MenuTitle" />
 
     <item
         android:id="@+id/navigation_bestsellers"
         android:icon="@drawable/ic_fire"
-        android:title="Новое"
+        android:title="@string/bestsellers"
         tools:ignore="MenuTitle" />
 
     <item
         android:id="@+id/navigation_basket"
         android:icon="@drawable/ic_shop"
-        android:title="Корзина"
+        android:title="@string/basket"
         tools:ignore="MenuTitle" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_profile"
-        android:title="Профиль"
+        android:title="@string/profile"
         tools:ignore="MenuTitle" />
 
 </menu>

@@ -16,6 +16,10 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
         return FragmentAuthBinding.inflate(inflater)
     }
 
+    override fun initView() {
+        navController = NavController(requireContext())
+    }
+
     override fun initListener() {
         binding.btnSignUp.setOnClickListener {
             navController = Navigation.findNavController(
@@ -31,5 +35,11 @@ class AuthFragment : BaseFragment<FragmentAuthBinding, AuthViewModel, NavControl
             )
             navController.navigate(R.id.navigation_sign_in)
         }    }
+
+    override fun initViewModel() {
+    }
+
+    override fun checkInternet() {
+    }
 
 }

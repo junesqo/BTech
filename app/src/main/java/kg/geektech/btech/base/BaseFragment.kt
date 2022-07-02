@@ -23,8 +23,8 @@ abstract class BaseFragment<VB: ViewBinding, VM: BaseViewModel, NC:NavController
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         checkInternet()
-        initViewModel()
         initView()
+        initViewModel()
         initListener()
     }
 

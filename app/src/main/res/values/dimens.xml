@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="t_main_bold">30sp</dimen>
+    <dimen name="six_teen_dp">16dp</dimen>
+    <dimen name="six_teen_sp">16sp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twenty_eaght_sp">28sp</dimen>
+    <dimen name="twenty_eaight_sp">28sp</dimen>
+    <dimen name="sixty_eaight_dp">68dp</dimen>
+    <dimen name="eaight_dp">8dp</dimen>
+    <dimen name="sixty_dp">60dp</dimen>
+    <dimen name="one_hundred_dp">100dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="two_hundred_dp">200dp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="three_hundred_four_dp">304dp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
 </resources>

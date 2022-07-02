@@ -1,32 +1,19 @@
 package kg.geektech.btech.ui.signIn
 
+import android.os.Bundle
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import androidx.fragment.app.viewModels
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
+import android.view.View
+import android.view.ViewGroup
 import kg.geektech.btech.R
-import kg.geektech.btech.base.BaseFragment
-import kg.geektech.btech.databinding.FragmentSignInBinding
 
-class SignInFragment : BaseFragment<FragmentSignInBinding, SignInViewModel, NavController>() {
-    override val viewModel: SignInViewModel by viewModels()
+class SignInFragment : Fragment() {
 
-    override fun inflateViewBinding(inflater: LayoutInflater): FragmentSignInBinding {
-        return FragmentSignInBinding.inflate(inflater)
-    }
-
-    override fun initView() {
-        navController = NavController(requireContext())
-    }
-
-    override fun initListener() {
-        binding.tvCreateAccount.setOnClickListener {
-            navController = Navigation.findNavController(
-                requireActivity(),
-                R.id.nav_host_fragment_activity_main
-            )
-            navController.popBackStack()
-            navController.navigate(R.id.navigation_sign_up)
-        }
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_sign_in, container, false)
     }
 }

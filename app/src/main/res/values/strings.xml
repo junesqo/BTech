@@ -14,4 +14,7 @@
     <string name="bestsellers">Новое</string>
     <string name="home">Главная</string>
     <string name="or">Или</string>
+    <string name="registration">Регистрация</string>
+    <string name="or_Sign_in">или Войти</string>
+    <string name="warning_text">Нажимая кнопку «Создать аккаунт», я даю свое согласие на обработку моих персональных данных, в соответствии с Государственным законом от 27.07.2006 года №38 «О персональных данных»</string>
 </resources>

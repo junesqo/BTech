@@ -14,14 +14,12 @@
         android:id="@+id/navigation_sign_in"
         android:name="kg.geektech.btech.ui.signIn.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" >
-    </fragment>
+        tools:layout="@layout/fragment_sign_in" />
     <fragment
         android:id="@+id/navigation_sign_up"
         android:name="kg.geektech.btech.ui.signUp.SignUpFragment"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" >
-    </fragment>
+        tools:layout="@layout/fragment_sign_up" />
     <fragment
         android:id="@+id/navigation_home"
         android:name="kg.geektech.btech.ui.home.HomeFragment"

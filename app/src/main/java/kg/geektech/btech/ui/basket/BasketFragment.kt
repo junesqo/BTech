@@ -1,15 +1,19 @@
 package kg.geektech.btech.ui.basket
 
+import android.os.Bundle
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import androidx.fragment.app.viewModels
-import androidx.navigation.NavController
-import kg.geektech.btech.base.BaseFragment
-import kg.geektech.btech.databinding.FragmentBasketBinding
+import android.view.View
+import android.view.ViewGroup
+import kg.geektech.btech.R
 
-class BasketFragment : BaseFragment<FragmentBasketBinding, BasketViewModel, NavController>() {
-    override val viewModel: BasketViewModel by viewModels()
+class BasketFragment : Fragment() {
 
-    override fun inflateViewBinding(inflater: LayoutInflater): FragmentBasketBinding {
-        return FragmentBasketBinding.inflate(inflater)
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_basket, container, false)
     }
 }

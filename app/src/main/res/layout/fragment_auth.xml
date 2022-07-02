@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_sign_in"
+        app:layout_constraintTop_toBottomOf="@id/btn_sign_in_auth"
         android:layout_marginTop="20dp"
         android:text="@string/create_account"
         android:textColor="@color/accent"

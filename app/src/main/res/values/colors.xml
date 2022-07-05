@@ -13,4 +13,8 @@
     <color name="medium_grey">#a4a2af</color>
     <color name="blue">#62a9fc</color>
     <color name="grey">#A4A2AF</color>
+    <color name="dark_green">#417716</color>
+    <color name="very_dark_green">#20520E</color>
+    <color name="very_light_green">#4AA62A</color>
+    <color name="light_green">#29834D</color>
 </resources>

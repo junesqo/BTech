@@ -16,4 +16,10 @@
     <dimen name="three_hundred_four_dp">304dp</dimen>
     <dimen name="thirty_two_dp">32dp</dimen>
     <dimen name="two_dp">2dp</dimen>
+    <dimen name="one_hundred_five_dp">105dp</dimen>
+    <dimen name="ninety_dp">90dp</dimen>
+    <dimen name="fourty_four_sp">44sp</dimen>
+    <dimen name="one_hundred_fifty_dp">150dp</dimen>
+    <dimen name="fourty_dp">40dp</dimen>
+    <dimen name="thirty_six_dp">36dp</dimen>
 </resources>

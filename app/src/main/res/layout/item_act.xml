@@ -12,6 +12,7 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     android:backgroundTint="@color/light_grey"
+    android:fontFamily="@font/rubik_regular"
     android:text="@string/new_year_skid"
     android:textColor="@color/black"
     android:textAllCaps="false"

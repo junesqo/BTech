@@ -40,7 +40,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/create_account"
         android:textColor="@color/accent"
-        android:fontFamily="@font/roboto_medium"
+        android:fontFamily="@font/rubik_medium"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,6 +17,7 @@
             android:id="@+id/tv_find_your_gadgets"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_bold"
             android:layout_marginStart="@dimen/twenty_dp"
             android:layout_marginTop="@dimen/six_teen_dp"
             android:text="@string/find_your_gadgets"
@@ -44,6 +45,7 @@
                     android:layout_height="52dp"
                     android:background="@color/white"
                     android:inputType="text"
+                    android:fontFamily="@font/rubik_regular"
                     android:autofillHints=""
                     tools:ignore="LabelFor" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -81,8 +83,7 @@
             android:layout_marginStart="@dimen/twenty_dp"
             android:layout_marginTop="@dimen/twenty_dp"
             android:text="@string/topical"
-            android:textColor="@color/black"
-            android:textSize="@dimen/twenty_sp"
+            style="@style/h2"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -111,9 +112,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/twenty_dp"
             android:layout_marginTop="@dimen/twenty_dp"
+            style="@style/h2"
             android:text="@string/pop_categories"
-            android:textColor="@color/black"
-            android:textSize="@dimen/twenty_sp"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -142,8 +142,7 @@
             android:layout_marginStart="@dimen/twenty_dp"
             android:layout_marginTop="@dimen/twenty_dp"
             android:text="@string/products_today"
-            android:textColor="@color/black"
-            android:textSize="@dimen/twenty_sp"
+            style="@style/h2"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView

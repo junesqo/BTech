@@ -28,5 +28,14 @@ class SignInFragment : BaseFragment<FragmentSignInBinding, SignInViewModel, NavC
             navController.popBackStack()
             navController.navigate(R.id.navigation_sign_up)
         }
+
+        binding.btnSignIn.setOnClickListener {
+            navController = Navigation.findNavController(
+                requireActivity(),
+                R.id.nav_host_fragment_activity_main
+            )
+            navController.popBackStack()
+            navController.navigate(R.id.navigation_home)
+        }
     }
 }

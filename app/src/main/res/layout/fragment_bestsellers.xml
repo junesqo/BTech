@@ -1,124 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.bestsellers.BestsellersFragment">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cv_tab"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:backgroundTint="@color/primary"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/tv_find_your_gadgets"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/twenty_dp"
-            android:layout_marginTop="@dimen/six_teen_dp"
-            android:text="@string/find_your_gadgets"
-            android:textColor="@color/white"
-            android:textSize="@dimen/twenty_eight_sp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cv_tab"
             android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:layout_marginHorizontal="@dimen/twenty_dp"
-            android:layout_marginTop="@dimen/sixty_eight_dp"
-            android:backgroundTint="@color/white"
-            app:cardCornerRadius="@dimen/eight_dp">
+            android:layout_height="140dp"
+            android:backgroundTint="@color/primary"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="52dp"
-                android:layout_marginEnd="@dimen/sixty_eight_dp"
-                android:hint="@string/iphone_13_pro_max"
-                android:textColorHint="@color/medium_grey">
-
-                <EditText
-                    android:id="@+id/et_search_gadgets"
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:background="@color/white"
-                    android:inputType="text"
-                    android:autofillHints=""
-                    tools:ignore="LabelFor" />
-            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:id="@+id/tv_find_your_gadgets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/twenty_dp"
+                android:layout_marginTop="@dimen/six_teen_dp"
+                style="@style/h1"
+                android:textSize="@dimen/twenty_eight_sp" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cv_search"
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="@dimen/three_hundred_four_dp"
-                android:backgroundTint="@color/accent">
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="@dimen/twenty_dp"
+                android:layout_marginTop="@dimen/sixty_eight_dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="@dimen/eight_dp">
 
-                <ImageView
-                    android:id="@+id/iv_search"
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/ic_search"
-                    android:contentDescription="@string/todo" />
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="@dimen/sixty_eight_dp"
+                    android:hint="@string/iphone_13_pro_max"
+                    android:textColorHint="@color/medium_grey">
+
+                    <EditText
+                        android:id="@+id/et_search_gadgets"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:inputType="text"
+                        android:autofillHints=""
+                        tools:ignore="LabelFor" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_search"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="@dimen/three_hundred_four_dp"
+                    android:backgroundTint="@color/accent">
+
+                    <ImageView
+                        android:id="@+id/iv_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_search"
+                        android:contentDescription="@string/todo" />
+                </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
+
         </androidx.cardview.widget.CardView>
 
-    </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/cl_discounts"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/cv_tab"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/constraintLayout"
-
->
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/item_discounts"
             />
 
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginStart="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cl_discounts">
-
         <TextView
             android:id="@+id/tv_product_today"
+            style="@style/h2"
+            android:layout_marginHorizontal="@dimen/twenty_dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/twenty_dp"
             android:layout_marginTop="@dimen/twenty_dp"
             android:text="@string/hit_product"
             android:textColor="@color/black"
-            android:textSize="@dimen/twenty_sp"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="@dimen/twenty_sp"/>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_product_today"
-            tools:listitem="@layout/item_product_today" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="28dp"
+                android:paddingHorizontal="16dp"
+                app:spanCount="2"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:listitem="@layout/item_product_today" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

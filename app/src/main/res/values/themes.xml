@@ -57,4 +57,10 @@
         <item name="android:letterSpacing">0.015</item>
 
     </style>
+
+    <style name="DetailGrey" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/grey</item>
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">@dimen/ten_sp</item>
+    </style>
 </resources>

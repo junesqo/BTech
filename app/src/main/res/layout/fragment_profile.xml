@@ -1,14 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/twenty_dp"
     tools:context=".ui.profile.ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Profile" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_profile"
+            android:src="@drawable/profile_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginStart="@dimen/twelve_dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/h2"
+                android:text="Абдурахман Абдурахманов"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                style="@style/DetailGrey"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="+996550550550"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Аккаунт"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настройки"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_favorite"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Избранное"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Купоны"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="История покупок"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="О нас"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginVertical="@dimen/six_teen_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Помощь и поддержка"
+            android:textSize="@dimen/six_teen_sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"/>
+        <View
+            android:background="@color/light_grey"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+
+
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        tools:listitem="@layout/item_profile"-->
+<!--        android:layout_marginTop="@dimen/eight_dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</LinearLayout>

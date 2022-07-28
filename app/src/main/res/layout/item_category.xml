@@ -12,7 +12,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:backgroundTint="@color/light_grey"
-        app:cardCornerRadius="@dimen/two_hundred_dp">
+        app:cardCornerRadius="@dimen/sixty_four_dp">
 
         <ImageView
             android:layout_width="120dp"

@@ -36,10 +36,20 @@
         android:id="@+id/navigation_profile"
         android:name="kg.geektech.btech.ui.profile.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_favorite"
+            app:destination="@id/navigation_favorite" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_bestsellers"
         android:name="kg.geektech.btech.ui.bestsellers.BestsellersFragment"
         android:label="fragment_bestsellers"
         tools:layout="@layout/fragment_bestsellers" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="kg.geektech.btech.ui.favorite.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
 </navigation>

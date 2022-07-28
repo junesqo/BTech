@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.BTech" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.BTech" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -10,8 +10,22 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">#0000</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="h1">
+        <item name="android:fontFamily">@font/rubik_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/find_your_gadgets</item>
+        <item name="android:textSize">@dimen/twenty_eight_sp</item>
+    </style>
+
+    <style name="h2">
+        <item name="android:fontFamily">@font/rubik_semibold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/twenty_sp</item>
+
     </style>
 
     <style name="ButtonStyle">
@@ -27,15 +41,26 @@
         <item name="colorOnPrimary">@color/black</item>
         <item name="android:letterSpacing">0.015</item>
         <item name="android:textAllCaps">false</item>
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="fontFamily">@font/rubik_semibold</item>
         <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="SearchET">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">@dimen/six_teen_dp</item>
     </style>
 
     <style name="Text24sp" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">@color/black</item>
-        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="fontFamily">@font/rubik_bold</item>
         <item name="android:textSize">24sp</item>
         <item name="android:letterSpacing">0.015</item>
 
+    </style>
+
+    <style name="DetailGrey" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/grey</item>
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">@dimen/ten_sp</item>
     </style>
 </resources>

@@ -14,4 +14,23 @@
     <string name="bestsellers">Новое</string>
     <string name="home">Главная</string>
     <string name="or">Или</string>
+    <string name="find_your_gadgets">Найди свой гаджет!</string>
+    <string name="iphone_13_pro_max">Искать Iphone 13 Pro Max</string>
+    <string name="topical">Актуальное</string>
+
+    <string name="registration">Регистрация</string>
+    <string name="or_Sign_in">или Войти</string>
+    <string name="warning_text">Нажимая кнопку «Создать аккаунт», я даю свое согласие на обработку моих персональных данных, в соответствии с Государственным законом от 27.07.2006 года №38 «О персональных данных»</string>
+    <string name="new_year_skid">Новогодние скидки</string>
+    <string name="pop_categories">Популярные категории</string>
+    <string name="smartphone">Смартфоны</string>
+    <string name="products_today">Товары дня</string>
+    <string name="samsung_galaxy_a52_5g">Samsung Galaxy A52 5G (EU)</string>
+    <string name="_45_000">45 000 сом</string>
+    <string name="_50">Скидки до 50%!</string>
+    <string name="_40">-40%</string>
+    <string name="hit_product">Хиты продаж</string>
+    <string name="favorite">Избранное</string>
+    <string name="delete">🗑️ Удалить</string>
+    <string name="add_to_basket">В корзину</string>
 </resources>
